@@ -1,0 +1,47 @@
+faviconapple: /img/apple-touch-icon.png
+favicon16: /img/favicon-16x16.png
+favicon32: /img/favicon-32x32.png
+cover: https://img.alicdn.com/tfs/TB16xmOxpY7gK0jSZKzXXaikpXa-828-691.jpg
+avatar: /img/avatar.png
+
+##侧边栏包含的组件
+## self：头像 + 名字
+## social：社交链接，配置见social
+## friends：友情链接，可配置friends
+## categories：文章分类
+## tags：文章标签
+## archives：归档
+widgets:
+  - self
+  - social
+  - categories
+  - tags
+  - archives
+
+##友情链接配置
+##格式
+## friends
+##   -
+##     name: 好友名称
+##     url: 好友链接地址
+##   -
+##     name: 好友名称
+##     url: 好友链接地址
+
+##社交链接配置
+##格式
+## social
+##   -
+##      type: 社交类型，可用类型有：weibo,github,atom,twitter,facebook,email
+##      url: 社交网站完整地址
+
+social:
+  -
+    type: github
+    url: https://github.com/LingyuCoder
+  -
+    type: atom
+    url: /rss.xml
+  -
+    type: email
+    url: lingyucoder@gmail.com
